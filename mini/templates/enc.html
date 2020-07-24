@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action='resencrypt' method='post'>
+    {% csrf_token %}   
+    <h3><font size="10" color="white"><i>Enter Data To Encrypt :</i></h3><input type='text' name="string" size='100'></font><br>
+    <h3><font size="10" color="white"><i>Enter KEY in digits :</i></h3><input type="text" name="key"></font><br><br>
+    <input type='submit' value='Encrypt'>
+</form>
+{% endblock %}

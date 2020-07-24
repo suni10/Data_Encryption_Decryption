@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1><font color="red" size="30">Secure The Data....</font></h1>
+<div align="left"><h2><font color="white" size="5">1.Encryption</font></h2>
+<h2><font color="white" size="5">2.Decpryption</font></h2>
+<form action='encrypt' method='post'>
+    {% csrf_token %}
+    <i><b><font color="white" size="6">Enter Your Choice 1 or 2 :</font></b></i>
+    <input type="text" name="ch" size='1'><br><br>
+    <input type='submit' value='NEXT'>
+    <div style="background-image: url('p1.jpg');"></div>
+</form>
+</div>
+{% load static %}
+<!--img src="{% static "p1.jpg" %}" alt="My image"-->
+{% endblock %}

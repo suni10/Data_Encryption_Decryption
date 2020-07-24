@@ -1,0 +1,8 @@
+{% block content %}
+<form action='resdecrypt' method='post'>
+    {% csrf_token %}   
+    <h3><font color="green" size="10"><i>Enter Encrypted data :</i></font></h3><input type='text' name="string" size='100' ><br>
+    <h3><font color="green" size="10"><i>Enter KEY :</i></font></h3><input type="text" name="key" size="5"><br><br>
+    <input type='submit' value="Decrypt">
+</form>
+{% endblock %}

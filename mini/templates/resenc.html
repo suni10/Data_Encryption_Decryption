@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3><font color="white" size="10">ENCRYPTED MESSAGE :</font></h3><h4><font color="white" size="5"><i>{{new_msg}}</i></font></h4>
+<form action='home1'>
+    <input type="submit" value="HOME">
+</form><br><br>
+<form action="dec">
+    <input type="submit" value="DECRYPT">
+</form>
+{% endblock %}
