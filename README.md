@@ -13,9 +13,9 @@ Now encrypted message/data(ciphertext) appears as output.On clicking home,it red
 
 ![p6](https://user-images.githubusercontent.com/46861022/90215979-f6d6a700-de1a-11ea-8463-155f3b29467b.png)
 
-Here input should be encrypted data(ciphertext)  and secure key code should be same as the one which has given while encrypting the data,to get correct message/data(plaintext).
+Here input should be encrypted data(ciphertext)  and secure key code should be same as the one which has given while encrypting the data,to get correct message/data(plaintext).On clicking decrypt directs to the decrypting page.
 
 ![p5](https://user-images.githubusercontent.com/46861022/90215967-f0482f80-de1a-11ea-991f-62e90c570dfc.png)
 
-Now original message/data(plaintext) appears as output.On clicking home,it redirects to home Page else on clicking encrypt, directs to encrypting page.
+Now original message/data(plaintext) appears as output.
 
